@@ -817,7 +817,7 @@ public class LatinIME extends InputMethodService implements KeyboardActionListen
             // createDisplayContext is not available.
             return this;
         }
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S_V2) {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.P) {
             // IME context sources is now managed by WindowProviderService from Android 12L.
             return this;
         }
